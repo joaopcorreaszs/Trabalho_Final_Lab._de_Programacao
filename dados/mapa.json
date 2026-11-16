@@ -1,0 +1,14 @@
+{
+  "nos": ["Base", "Centro", "Porto", "Lagoa", "Serra", "Bosque", "Vila"],
+  "arestas": [
+    { "origem": "Base",   "destino": "Centro", "distancia": 8,  "risco": 2, "pedagio": 0 },
+    { "origem": "Base",   "destino": "Vila",   "distancia": 5,  "risco": 1, "pedagio": 0 },
+    { "origem": "Centro", "destino": "Porto",  "distancia": 6,  "risco": 3, "pedagio": 4 },
+    { "origem": "Centro", "destino": "Lagoa",  "distancia": 7,  "risco": 1, "pedagio": 2 },
+    { "origem": "Vila",   "destino": "Bosque", "distancia": 4,  "risco": 2, "pedagio": 0 },
+    { "origem": "Bosque", "destino": "Serra",  "distancia": 5,  "risco": 4, "pedagio": 3 },
+    { "origem": "Porto",  "destino": "Lagoa",  "distancia": 3,  "risco": 1, "pedagio": 1 },
+    { "origem": "Lagoa",  "destino": "Serra",  "distancia": 9,  "risco": 2, "pedagio": 5 },
+    { "origem": "Serra",  "destino": "Base",   "distancia": 12, "risco": 3, "pedagio": 6 }
+  ]
+}

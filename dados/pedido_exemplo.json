@@ -1,0 +1,11 @@
+{
+  "base": "Base",
+  "veiculo": { "tipo": "van", "capacidade_kg": 800, "autonomia_km": 60 },
+  "entregas": [
+    { "id": "E1", "destino": "Porto",  "peso_kg": 120, "prioridade": 3 },
+    { "id": "E2", "destino": "Serra",  "peso_kg": 200, "prioridade": 1 },
+    { "id": "E3", "destino": "Centro", "peso_kg": 80,  "prioridade": 2 },
+    { "id": "E4", "destino": "Bosque", "peso_kg": 150, "prioridade": 2 }
+  ],
+  "pesos_custo": { "distancia": 1.0, "risco": 2.0, "pedagio": 3.0 }
+}
